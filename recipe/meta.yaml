@@ -1,4 +1,4 @@
-{% set version = '0.2.0.1' %}
+{% set version = "0.2.0.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1001
+  number: 1002
   rpaths:
     - lib/R/lib/
     - lib/
@@ -43,12 +43,12 @@ test:
 about:
   home: https://renkun.me/formattable, https://github.com/renkun-ken/formattable
   license: MIT
-  summary: Provides functions to create formattable vectors and data frames. 'Formattable' vectors
-    are printed with text formatting, and formattable data frames are printed with multiple
-    types of formatting in HTML to improve the readability of data presented in tabular
-    form rendered in web pages.
+  summary: Provides functions to create formattable vectors and data frames. 'Formattable' vectors are printed with text formatting, and formattable data frames are printed with multiple types of formatting in HTML to improve the readability of data presented in tabular form rendered in web pages.
   license_family: MIT
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
+    - LICENSE
 extra:
   recipe-maintainers:
     - conda-forge/r
