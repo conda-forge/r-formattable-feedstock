@@ -1,11 +1,11 @@
-About r-formattable
-===================
+About r-formattable-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-formattable-feedstock/blob/main/LICENSE.txt)
 
 Home: https://renkun.me/formattable, https://github.com/renkun-ken/formattable
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-formattable-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides functions to create formattable vectors and data frames. 'Formattable' vectors are printed with text formatting, and formattable data frames are printed with multiple types of formatting in HTML to improve the readability of data presented in tabular form rendered in web pages.
 
